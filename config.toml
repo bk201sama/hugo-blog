@@ -1,14 +1,18 @@
 # below paper config
 baseURL = 'https://www.bk201sama.eu.org/'
-languageCode = 'zh-cn'
+author = "bk201"
+copyright = "Copyright © 2008–now, bk201; all rights reserved."
+languageCode = 'en'
 title = 'bk201的博客'
-theme = "paper"
-
+paginate = 8
+ignoreErrors = ["error-remote-getjson"]
+enableInlineShortcodes = true
 disqusShortname = 'bk201sama'   # use disqus comments
+theme = "paper"
 
 [params]
   # color style
-  color = 'linen'                           # linen, wheat, gray, light
+  # color = 'linen'                           # linen, wheat, gray, light
 
   # header social icons
   # twitter = 'YOUR_TWITTER_ID'               # twitter.com/YOUR_TWITTER_ID
@@ -23,7 +27,30 @@ disqusShortname = 'bk201sama'   # use disqus comments
   bio = '静静的听雨声，激烈的敲打键盘'
 
   # misc
-  #disableHLJS = true                        # disable highlight.js
-  #monoDarkIcon = true                       # show monochrome dark mode icon
+  disableHLJS = true                        # disable highlight.js
+  monoDarkIcon = true                       # show monochrome dark mode icon
   #gravatarCdn = 'https://cdn.v2ex.com/gravatar/'         # e.g. 'https://cdn.v2ex.com/gravatar/'
   #graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
+
+  [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
