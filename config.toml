@@ -18,7 +18,7 @@ disqusShortname = 'bk201sama'   # use disqus comments
   rss = true                                # show rss icon
 
   # home page profile
-  avatar = 'https://www.bk201sama.eu.org/img/avatar.jpg'                 # gravatar email or image url
+  # avatar = 'https://www.bk201sama.eu.org/img/avatar.jpg'                 # gravatar email or image url
   name = 'bk201'
   bio = '静静的听雨声，激烈的敲打键盘'
 
