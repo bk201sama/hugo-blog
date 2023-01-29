@@ -1,5 +1,5 @@
 # below paper config
-baseURL = 'http://example.org/'
+baseURL = 'https://www.bk201sama.eu.org/'
 languageCode = 'zh-cn'
 title = '小🦁️的博客'
 theme = "paper"
