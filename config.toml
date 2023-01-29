@@ -22,7 +22,6 @@ disqusShortname = 'bk201sama'   # use disqus comments
   name = 'bk201'
   bio = '静静的听雨声，激烈的敲打键盘'
 
-
   # misc
   #disableHLJS = true                        # disable highlight.js
   #monoDarkIcon = true                       # show monochrome dark mode icon
