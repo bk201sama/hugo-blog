@@ -19,8 +19,8 @@ disqusShortname = 'bk201sama'   # use disqus comments
 
   # home page profile
   # avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
-  name = '小狮子'
-  bio = '一个不秃头的程序员'
+  # name = ''
+  # bio = ''
 
 
   # misc
